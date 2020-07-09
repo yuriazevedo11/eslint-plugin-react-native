@@ -1,5 +1,5 @@
 {
-  "name": "@yoa/eslint-plugin-react-native",
+  "name": "@yuriazevedo/eslint-config-react-native",
   "author": "Yuri Azevedo <yuriazevedo11@gmail.com>",
   "version": "1.0.0",
   "main": "index.js",

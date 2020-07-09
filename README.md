@@ -1,11 +1,11 @@
-# eslint-plugin-react-native
+# eslint-config-react-native
 
 My eslint configuration for React Native
 
 ## Installation
 
 ```
-yarn add @yoa/eslint-plugin-react-native -D
+yarn add @yuriazevedo/eslint-config-react-native -D
 ```
 
 ## Usage example
@@ -14,6 +14,6 @@ In `.eslintrc`:
 
 ```json
 {
-  "extends": "@yoa/react-native"
+  "extends": "@yuriazevedo/react-native"
 }
 ```

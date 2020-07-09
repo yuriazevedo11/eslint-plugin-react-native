@@ -4,13 +4,39 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yuriazevedo11/eslint-plugin-react-native.git"
+  "scripts": {},
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "@typescript-eslint/parser": "^3.6.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.6",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7"
   },
   "keywords": [
     "eslint",
     "eslint-config",
     "eslint-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuriazevedo11/eslint-plugin-react-native.git"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
+  },
+  "eslintIgnore": [
+    "node_modules"
   ]
 }

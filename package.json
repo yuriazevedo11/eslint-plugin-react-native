@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "cm": "git add . && git-cz"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.6.0",
     "@typescript-eslint/parser": "^3.6.0",
@@ -19,6 +21,7 @@
     "typescript": "^3.9.6"
   },
   "devDependencies": {
+    "@yuriazevedo/cz-emoji": "^1.0.0",
     "eslint": "^7.4.0"
   },
   "peerDependencies": {
@@ -38,5 +41,10 @@
   },
   "eslintIgnore": [
     "node_modules"
-  ]
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/@yuriazevedo/cz-emoji"
+    }
+  }
 }

@@ -123,10 +123,10 @@
   dependencies:
     eslint-visitor-keys "^1.1.0"
 
-"@yuriazevedo/cz-emoji@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@yuriazevedo/cz-emoji/-/cz-emoji-1.0.0.tgz#918ac910b05349b01199573e2d1324752bbdccfd"
-  integrity sha512-Ii10E6mOYkkm5gjQ0eRgI/POzceybmGaWhNn1VprDT1EitMTSc3bEDrQbebHBuGrWmBjDY7oawFnmHqskGZi7A==
+"@yuriazevedo/cz-emoji@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@yuriazevedo/cz-emoji/-/cz-emoji-1.1.0.tgz#128aa2b32d5694d5b1388d9e61574e7dc536e567"
+  integrity sha512-ohLf/BWtV1Tj2aCYSg3hrTu7EmAZpQEd19U99lnDZ/dcsPhYBV9WxSvDpakNng4QTdwDT0rp8CzaDxzk8YshyA==
   dependencies:
     cli-truncate "^1.0.0"
     fuse.js "^3.4.5"
